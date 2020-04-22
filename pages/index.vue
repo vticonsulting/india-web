@@ -63,8 +63,9 @@
           <li type="circle">Focus and pay attention in class.</li>
           <li type="circle">Do not be afraid to ask questions and for help.</li>
           <li type="circle">Complete and turn in all assignments on time.</li>
-          <li type="circle">Parents, please encourage your child to complete their homework daily.</li>
       </ul>
+
+      <p>Parents, please encourage your child to complete their homework daily.</p>
     </div>
   </div>
 </template>
