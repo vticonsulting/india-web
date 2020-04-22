@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="font-cursive">
     <figure class="bg-gray-400">
       <img
         class="object-cover object-bottom h-48 w-full"
@@ -8,23 +8,23 @@
     </figure>
 
     <nav class="flex justify-center sm:text-2xl">
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/">
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/">
         Home
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/syllabus">
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/syllabus">
         Syllabus
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/resources">
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/resources">
         Resources
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/contact">
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/standards">
         Standards
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/contact">
-        Contact
-      </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 sm:px-6 border-b-2 border-gray-500" exact to="/portfolio">
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/portfolio">
         Portfolio
+      </nuxt-link>
+      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/contact">
+        Contact
       </nuxt-link>
     </nav>
     <main>
@@ -53,5 +53,10 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.nuxt-link-active {
+  color: #111;
+  border-bottom: 4px solid #111;
 }
 </style>
