@@ -1,6 +1,5 @@
 <template>
-  <div class="my-4 mx-16 container max-w-2xl mx-auto px-6">
-    <h1 class="font-display text-center text-5xl">Ms. Lyons</h1>
+  <div class="my-4 mx-16 max-w-2xl mx-auto px-6 text-xl">
 
     <div class="font-body">
       <h2 class="text-2xl mb-4">About me</h2>

@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 mx-16 container max-w-3xl mx-auto px-6 font-body">
+  <div class="my-4 mx-16 max-w-3xl mx-auto px-6 font-body">
     <div class="text-center text-3xl p-6">
       <p>Send a text to</p>
 

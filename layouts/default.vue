@@ -7,23 +7,23 @@
       />
     </figure>
 
-    <nav class="flex justify-center sm:text-2xl">
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/">
+    <nav class="flex justify-between w-full max-w-4xl mx-auto sm:text-2xl mb-12">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/">
         Home
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/syllabus">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/syllabus">
         Syllabus
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/resources">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/resources">
         Resources
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/standards">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/standards">
         Standards
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/portfolio">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/portfolio">
         Portfolio
       </nuxt-link>
-      <nuxt-link class="inline-block py-2 px-2 text-gray-600 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/contact">
+      <nuxt-link class="inline-block w-1/6 text-center py-2 px-2 text-gray-600 hover:border-b-4 hover:text-gray-700 sm:px-6 border-b-2 border-gray-500" exact to="/contact">
         Contact
       </nuxt-link>
     </nav>
@@ -58,5 +58,9 @@
 .nuxt-link-active {
   color: #111;
   border-bottom: 4px solid #111;
+}
+.content {
+  margin: 0 !important;
+  padding: 0;
 }
 </style>
