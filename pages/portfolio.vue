@@ -146,11 +146,25 @@
               </div>
             </b-TabItem>
           </b-Tabs>
+        </div>
+      </b-TabItem>
 
+      <b-TabItem label="Classroom Management">
+        <div class="content" id="classroom">
+          <h2>Classroom Management</h2>
 
-
-
-
+          <div class="media-container container mx-auto max-w-4xl" 
+          style="position: relative; height: 800px"
+          >
+            <iframe
+              style="top: 0;left: 0;width: 100%;height: 100%;border: 0;"
+              src="/classroom-management.pdf"
+              width="100%"
+              height="100%"
+            >
+              This browser does not support PDFs. Please download the PDF to view it: Download PDF
+            </iframe>
+          </div>
         </div>
       </b-TabItem>
     </b-Tabs>

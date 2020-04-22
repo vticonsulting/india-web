@@ -65,9 +65,6 @@
           <li type="circle">Complete and turn in all assignments on time.</li>
           <li type="circle">Parents, please encourage your child to complete their homework daily.</li>
       </ul>
-
-      <p><em>Students are encourage to make up missing assignments immediately.</em></p>
-
     </div>
   </div>
 </template>
