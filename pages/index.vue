@@ -19,7 +19,7 @@
 
       <ul class="mb-4">
         <li>Wauwatosa West High School - Summer School 2014, 2015</li>
-        <li>Kohler Middle/High School - 2014 - Present</li>
+        <li>Stone Mountain Middle School - 2019 - Present</li>
       </ul>
     </div>
   </div>
