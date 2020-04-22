@@ -63,4 +63,8 @@
   margin: 0 !important;
   padding: 0;
 }
+
+.content h2 {
+  font-size: 1.5rem !important;
+}
 </style>
