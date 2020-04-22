@@ -1,8 +1,9 @@
 <template>
-  <div class="my-4 mx-16 mb-12 max-w-3xl mx-auto px-6 text-xl" style="background: url(/bitmoji-3.png) no-repeat 124% 0">
-
+  <div
+    class="my-4 mx-16 mb-12 max-w-3xl mx-auto px-6 text-xl"
+    style="background: url(/bitmoji-3.png) no-repeat 124% 0"
+  >
     <div class="font-body">
-
       <!-- Blockquote Component -->
       <blockquote class="mb-8 md:flex-grow md:flex md:flex-col">
         <div class="relative text-lg leading-7 font-medium text-gray-800 md:flex-grow">

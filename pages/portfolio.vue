@@ -151,9 +151,9 @@
 
       <b-TabItem label="Classroom Management">
         <div class="content" id="classroom">
-          <h2>Classroom Management</h2>
+          <h2 >Classroom Management</h2>
 
-          <div class="media-container container mx-auto max-w-4xl" 
+          <div class="media-container container mx-auto max-w-4xl"
           style="position: relative; height: 800px"
           >
             <iframe
@@ -167,6 +167,44 @@
           </div>
         </div>
       </b-TabItem>
+
+      <b-TabItem label="Student Work">
+        <div id="student-work">
+          <h2 class="font-bold mb-4">Student Work</h2>
+
+          <!-- Carousel -->
+          <b-Carousel
+            :indicator-inside="false"
+          >
+            <b-CarouselItem v-for="(item, i) in items" :key="i">
+              <figure @click="imageModal(item)" class="image cursor-pointer">
+                <img :src="`${item.image}.png`">
+              </figure>
+            </b-CarouselItem>
+
+            <span v-if="gallery" @click="switchGallery(false)" class="modal-close is-large" />
+
+            <template slot="list" slot-scope="props">
+              <b-CarouselList
+                v-model="props.active"
+                :data="items"
+                :config="al"
+                :refresh="gallery"
+                @switch="props.switch($event, false)"
+                as-indicator
+              />
+            </template>
+
+            <template slot="indicators" slot-scope="props">
+              <span class="al image">
+                  <img :src="getImgUrl(props.i)" :title="props.i">
+              </span>
+            </template>
+
+          </b-Carousel>
+          <!-- end Carousel -->
+        </div>
+      </b-TabItem>
     </b-Tabs>
   </div>
 </template>
@@ -177,7 +215,70 @@ export default {
     return {
       activePortfolio: 0,
       activeLessonPlan: 0,
+      gallery: false,
+      al: {
+        hasGrayscale: true,
+        itemsToShow: 2,
+        breakpoints: {
+          768: {
+            hasGrayscale: false,
+            itemsToShow: 4,
+          },
+          960: {
+            hasGrayscale: true,
+            itemsToShow: 6,
+          },
+        },
+      },
+      items: [
+        {
+          title: 'Slide 1',
+          image: 'student-work-1',
+        },
+        {
+          title: 'Slide 2',
+          image: 'student-work-2',
+        },
+        {
+            title: 'Slide 3',
+            image: 'student-work-3',
+        },
+        {
+          title: 'Slide 4',
+          image: 'student-work-4'
+        },
+        {
+          title: 'Slide 5',
+          image: 'student-work-5',
+        },
+      ],
     }
+  },
+
+  methods: {
+    getImgUrl(value) {
+      return `/${this.items[value].image}.png`
+    },
+
+    imageModal(item) {
+      console.log(item);
+
+      this.$buefy.modal.open(
+        `<p class="image">
+          <img src="/${item.image}.jpg">
+        </p>`
+      )
+    },
+
+    switchGallery(value) {
+      this.gallery = value
+
+      if (value) {
+        return document.documentElement.classList.add('is-clipped')
+      } else {
+        return document.documentElement.classList.remove('is-clipped')
+      }
+    },
   },
 }
 </script>
