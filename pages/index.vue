@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 mx-16 max-w-2xl mx-auto px-6 text-xl">
+  <div class="my-4  mx-16 max-w-3xl mx-auto px-6 text-xl">
 
     <div class="font-body" style="background: url(/bitmoji-1.png) no-repeat 100% 0">
 

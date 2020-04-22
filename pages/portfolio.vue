@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 max-w-4xl mx-auto px-6 font-body text-2xl">
+  <div class="my-4 max-w-4xl mx-auto px-6 font-body text-xl">
     <b-Tabs v-model="activePortfolio">
       <b-TabItem label="Opening Week Reflection">
         <div class="content" id="reflection">
