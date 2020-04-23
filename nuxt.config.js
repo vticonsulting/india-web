@@ -1,6 +1,7 @@
 const path = require('path')
 
 export default {
+  mode: 'spa',
   head: {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

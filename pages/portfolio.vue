@@ -1,8 +1,8 @@
 <template>
-  <div class="my-4 max-w-4xl mx-auto px-6 font-body text-xl">
+  <div class="markdown my-4 max-w-4xl mx-auto px-6 font-body text-xl">
     <b-Tabs v-model="activePortfolio">
       <b-TabItem label="Opening Week Reflection">
-        <div class="content" id="reflection">
+        <div class="" id="reflection">
           <h2>OSE Reflection</h2>
 
           <p>Summer 2019 was the first time I was back in a classroom as a student after ten years. As excited as I was to be working towards my career goal, I was nervous about this experience. Near the end of the semester, I did not realize that this journey was not going to be a pleasant stroll but a full race ahead. I needed to find a job and fast because unpaid student teaching will not help pay tuition. Job searching became a daunting task while working a summer job between classes. I filled out many online application without receiving a callback. When I did receive a phone call from Fulton County for their Teacher Bank, I thought I fumbled the phone interview. Lucky I made the bank, but still did not receive a position. After going to a Dekalb County Job Fair and not having great luck, I started to make alternate plans towards fulfilling course requirements for the University. A week before students were planned to go back to school; I received an interview and a job offer at Stone Mountain Middle School teaching sixth grade Math. I am lucky to call myself a Pirate officially.</p>
@@ -50,28 +50,23 @@
       </b-TabItem>
 
       <b-TabItem label="Diversity Plan">
-        <div class="content" id="diversity">
+        <div class="" id="diversity">
           <h2>Diversity Plan</h2>
 
           <p>
             <b>What is a diversity plan?</b> A diversity plan details how an educator will reach their students-regardless of race, ethnicity, gender, socioeconomic status, sexuality, disability status, nationality, skill level or language ability in a particular subject.
           </p>
+
           <p>
             I plan to teach a Middle School Mathematics class in a way that acknowledges diversity and use it as an asset to create a meaningful learning environment.
           </p>
 
           <p>
-            To begin a plan we have to understand what our beliefs are about diversity. According to Abbe Herzig’s article in Mathematics Teacher,
-
-            <blockquote>
-              “as we work toward educating diverse students equitably in the mathematics classroom, our beliefs and goals for diversity have an important impact on our efforts” (Herzig, 2005).
-            </blockquote>
-
-            I believe that every student, regardless of background, economic status, or skill level, should have an equal opportunity to achieve a high-quality education.
+            To begin a plan we have to understand what our beliefs are about diversity. According to Abbe Herzig’s article in Mathematics Teacher, <em>“as we work toward educating diverse students equitably in the mathematics classroom, our beliefs and goals for diversity have an important impact on our efforts”</em> (Herzig, 2005). I believe that every student, regardless of background, economic status, or skill level, should have an equal opportunity to achieve a high-quality education.
           </p>
 
           <p>
-            The first weeks of the school year, observations of students’ learning styles and habits and will occur. “One students’ learning preferences may differ from another’s based on broad issues such as developmental level, gender, race, ethnicity, socioeconomic class, or native language” (Brown &amp; Knowles, 2007, p. p. 171). Keeping track of observations will allow me to understand the individualized learning style of each student. Then I will be able to create classroom conditions to meet the needs of the different learning styles and provide the tools for success at new cognitive challenges (Brown &amp; Knowles, 2007, p. 107).  After observing students learning styles and determining if they are either visual, aural, verbal, or kinesthetic, planning lessons that tailor to each method is essential. Providing opportunities to use manipulatives, make songs about math formulas, solve problems on a whiteboard, or to use current technology, is necessary when catering to the diverse learning styles. Also providing projects and problems in the classroom that connect to the real world or the community in which the students live will promote engagement in the classroom  (Sleeter, 2005) (Herzig, 2005).  Flex learning time in the classroom will appeal to students that may need more time to complete a lesson; Collaborative learning with other students in the classroom will allow them to learn from each and expose them to people from other backgrounds. Students can use technology to research mathematicians from different ethnicity, to expose them to people they never knew about, and to identify with mathematicians that resemble themselves. I also need to “use assessments that give students authentic opportunities to demonstrate their understanding, not confounded by other skills or distractors (Shepard, 2005) (Herzig, 2005)”. Also, actively searching for diversity trainings within the county and other outside learning will keep me current on new methods and philosophies on inclusion.
+            The first weeks of the school year, observations of students’ learning styles and habits and will occur. <em>“One students’ learning preferences may differ from another’s based on broad issues such as developmental level, gender, race, ethnicity, socioeconomic class, or native language”</em> (Brown &amp; Knowles, 2007, p. p. 171). Keeping track of observations will allow me to understand the individualized learning style of each student. Then I will be able to create classroom conditions to meet the needs of the different learning styles and provide the tools for success at new cognitive challenges (Brown &amp; Knowles, 2007, p. 107).  After observing students learning styles and determining if they are either visual, aural, verbal, or kinesthetic, planning lessons that tailor to each method is essential. Providing opportunities to use manipulatives, make songs about math formulas, solve problems on a whiteboard, or to use current technology, is necessary when catering to the diverse learning styles. Also providing projects and problems in the classroom that connect to the real world or the community in which the students live will promote engagement in the classroom  (Sleeter, 2005) (Herzig, 2005).  Flex learning time in the classroom will appeal to students that may need more time to complete a lesson; Collaborative learning with other students in the classroom will allow them to learn from each and expose them to people from other backgrounds. Students can use technology to research mathematicians from different ethnicity, to expose them to people they never knew about, and to identify with mathematicians that resemble themselves. I also need to <em>“use assessments that give students authentic opportunities to demonstrate their understanding, not confounded by other skills or distractors”</em> (Shepard, 2005) (Herzig, 2005). Also, actively searching for diversity trainings within the county and other outside learning will keep me current on new methods and philosophies on inclusion.
           </p>
 
           <p>
@@ -93,7 +88,7 @@
       </b-TabItem>
 
       <b-TabItem label="Lesson Plans">
-        <div class="content" id="diversity">
+        <div class="" id="diversity">
           <h2>Lesson Plans</h2>
 
           <b-Tabs v-model="activeLessonPlan">
@@ -108,7 +103,7 @@
               >
                 <iframe
                   style="top: 0;left: 0;width: 100%;height: 100%;border: 0;"
-                  src="/gastate-lesson-plan1.pdf"
+                  src="/doc/gastate-lesson-plan-1.pdf"
                   width="100%"
                   height="100%"
                 >
@@ -124,7 +119,7 @@
               >
                 <iframe
                   style="top: 0;left: 0;width: 100%;height: 100%;border: 0"
-                  src="/gastate-lesson-plan2.pdf"
+                  src="/doc/gastate-lesson-plan-2.pdf"
                   width="100%"
                   height="100%"
                 >
@@ -137,7 +132,7 @@
               <div class="media-container container mx-auto max-w-4xl" style="position: relative; height: 800px">
                 <iframe
                   style="top: 0;left: 0;width: 100%;height: 100%;border: 0;"
-                  src="/dekalb-lesson-plan.pdf"
+                  src="/doc/dekalb-lesson-plan.pdf"
                   width="100%"
                   height="100%"
                 >
@@ -150,7 +145,7 @@
       </b-TabItem>
 
       <b-TabItem label="Classroom Management">
-        <div class="content" id="classroom">
+        <div class="" id="classroom">
           <h2 >Classroom Management</h2>
 
           <div class="media-container container mx-auto max-w-4xl"
@@ -158,7 +153,7 @@
           >
             <iframe
               style="top: 0;left: 0;width: 100%;height: 100%;border: 0;"
-              src="/classroom-management.pdf"
+              src="/doc/classroom-management.pdf"
               width="100%"
               height="100%"
             >
@@ -176,18 +171,22 @@
           <b-Carousel
             :indicator-inside="false"
           >
-            <b-CarouselItem v-for="(item, i) in items" :key="i">
-              <figure @click="imageModal(item)" class="image cursor-pointer">
-                <img :src="`${item.image}.png`">
+            <b-CarouselItem v-for="(slide, i) in slides" :key="i">
+              <figure @click="imageModal(slide)" class="image cursor-pointer">
+                <img :src="`/img/${slide.image}.png`">
               </figure>
             </b-CarouselItem>
 
-            <span v-if="gallery" @click="switchGallery(false)" class="modal-close is-large" />
+            <span
+              v-if="gallery"
+              @click="switchGallery(false)"
+              class="modal-close is-large"
+            />
 
             <template slot="list" slot-scope="props">
               <b-CarouselList
                 v-model="props.active"
-                :data="items"
+                :data="slides"
                 :config="al"
                 :refresh="gallery"
                 @switch="props.switch($event, false)"
@@ -218,19 +217,19 @@ export default {
       gallery: false,
       al: {
         hasGrayscale: true,
-        itemsToShow: 2,
+        slidesToShow: 2,
         breakpoints: {
           768: {
             hasGrayscale: false,
-            itemsToShow: 4,
+            slidesToShow: 4,
           },
           960: {
             hasGrayscale: true,
-            itemsToShow: 6,
+            slidesToShow: 6,
           },
         },
       },
-      items: [
+      slides: [
         {
           title: 'Slide 1',
           image: 'student-work-1',
@@ -257,15 +256,15 @@ export default {
 
   methods: {
     getImgUrl(value) {
-      return `/${this.items[value].image}.png`
+      return `/img/${this.slides[value].image}.png`
     },
 
-    imageModal(item) {
-      console.log(item);
+    imageModal(slide) {
+      console.log(slide);
 
       this.$buefy.modal.open(
         `<p class="image">
-          <img src="/${item.image}.jpg">
+          <img src="/img/${slide.image}.jpg">
         </p>`
       )
     },
@@ -282,13 +281,3 @@ export default {
   },
 }
 </script>
-
-<style>
-  .content {
-    padding: 2rem;
-  }
-
-  .content p {
-    margin-bottom: 2rem;
-  }
-</style>

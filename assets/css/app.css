@@ -18,3 +18,26 @@ html { font-family: 'Inter', sans-serif; }
 .page-enter, .page-leave-to {
     opacity: 0;
 }
+
+.media-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 26.25%;
+}
+
+.media-container iframe,
+.media-container video,
+.media-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.nuxt-link-active {
+  @apply font-bold;
+  color: #111;
+  border-bottom: 4px solid #111;
+}
