@@ -171,6 +171,7 @@
       <b-TabItem label="Student Work">
         <div id="student-work">
           <h2 class="font-bold mb-4">Student Work</h2>
+          <p class="font-light m-1">Click to enlarge.</p>
 
           <!-- Carousel -->
           <b-Carousel
