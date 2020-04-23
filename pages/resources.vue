@@ -1,9 +1,6 @@
 <template>
   <div class="my-4 mx-16 max-w-3xl mx-auto px-6 font-body text-xl">
-    <h2 class="text-2xl mb-8 font-bold">Student Platform</h2>
-    <style>
-      h2 {color:#FF1493;}
-    </style>
+    <h2 class="text-2xl mb-8 font-bold text-pink-500">Student Platform</h2>
 
     <h3>Clever</h3>
 
@@ -38,9 +35,10 @@
       <li>
         <b>Password</b>
         <em>The one you use for clever and to login to your computer</em>
-      </li>    </ul>
+      </li>
+    </ul>
 
-    <h2 class="text-2xl mb-8 font-bold">Online Textbook</h2>
+    <h2 class="text-2xl mb-8 text-pink-500 font-bold">Online Textbook</h2>
 
     <h3 class="font-bold">Carnegie Learning</h3>
 
@@ -60,7 +58,7 @@
       </li>
     </ul>
 
-    <h2 class="text-2xl mb-8 font-bold">Math Enrichments</h2>
+    <h2 class="text-2xl mb-8 text-pink-500 font-bold">Math Enrichments</h2>
 
     <ul>
       <li class="mb-4">

@@ -2,6 +2,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Helvetica', 'Arial', 'sans-serif'],
         display: ['Oswald'],
         body: ['Open Sans'],
         cursive: ['Pacifico', 'cursive'],
