@@ -14,9 +14,8 @@
       <div class="mb-4">
         <p class="mb-4 pr-56"> My name is India Lyons.  I teach sixth-grade mathematics. For ten years, I’ve worked with students from kindergarten to 8th grade in the classroom, and as a tutor and after-school counselor and director.</p>
 
-        <p class="mb-4 pr-56">Currently, I'm a student at Georgia State University and I am a candiate for a Masters of Arts in Teaching Middle Grades. I also have a BA in Political Science with a minor in Economics from Howard University.</p>
+        <p class="mb-4 pr-56">This is my 2nd year as a Math teacher at Stone Mountain Middle school, and I could not be any happier to work with the best and the brightest students that Dekalb County has to offer.</p>
 
-        <p>This is my 2nd year as a Math teacher at Stone Mountain Middle school, and I could not be any happier to work with the best and the brightest students that Dekalb County has to offer.</p>
       </div>
 
       <h2 class="text-2xl mb-4">Teaching Philosophy</h2>
@@ -28,7 +27,7 @@
       <h2 class="text-2xl mb-4">Class Expectations</h2>
 
       <p class="mb-4">
-          Please encourage your child to come each day prepared and ready to learn. Students should bring <em>Math Binder</em>, <em>Paper</em>, <em>Pencil</em>, and <em>Chromebook</em> to every class.
+          Please encourage your child to come each day prepared and ready to learn. Students should bring <em>a Charged Math Chromebook or Digital Device</em>, <em>Paper</em>, and <em>Pencil</em> to every class.
       </p>
 
       <p class="mb-4">We expect students to:</p>
@@ -40,6 +39,17 @@
           <li type="circle">Do not be afraid to ask questions and for help.</li>
           <li type="circle">Complete and turn in all assignments on time.</li>
       </ul>
+
+      <p class="mb-4">Virtual Class Expectations:</p>
+
+      <ul class="list-inside mb-4 ml-4">
+          <li type="circle">Be on time and prepared for class.</li>
+          <li type="circle">Participate in class.
+          <li type="circle">Designate a work space with an appropriate background.</li>
+          <li type="circle">Click on raise hand to speak or type a question in the chat.</li>
+          <li type="circle">Stay on mute unless I state otherwise.</li>
+          <li type="circle">BE APPROPRIATE if you can't do it in the school building don't do it
+
 
       <p>Parents, please encourage your child to complete their homework daily.</p>
     </div>
