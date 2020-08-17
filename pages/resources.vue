@@ -49,29 +49,18 @@
     <ul class="mb-8">
       <li>
         <b>Username</b>
-        <em>firstandlastname (lowercase no spaces)</em>Ex: John Smith (johnsmith)
+        <em>firstinitiallastname (lowercase no spaces)</em>Ex: John Smith (jsmith)
       </li>
 
       <li>
         <b>Password</b>
-        <em>lyonsmath6a</em>
+        <em>lyons6amath</em>
       </li>
     </ul>
 
     <h2 class="text-2xl mb-8 text-pink-500 font-bold">Math Enrichments</h2>
 
     <ul>
-      <li class="mb-4">
-        <h3 class="font-bold">IXL</h3>
-
-        <a class="text-blue-700 inline-block border-b-2 hover:border-blue-800" href="https://ixl.com">https://ixl.com</a>
-
-        <ul class="mb-4">
-          <li>Username firstandlastname (lowercase no spaces)</li>
-          <li>Password lyons</li>
-        </ul>
-      </li>
-
       <li class="mb-4">
         <h3 class="font-bold">Khan Academy</h3>
 
