@@ -16,7 +16,7 @@
 
         <p class="mb-4 pr-56">Currently, I'm a student at Georgia State University and I am a candiate for a Masters of Arts in Teaching Middle Grades. I also have a BA in Political Science with a minor in Economics from Howard University.</p>
 
-        <p>This is my 1st year as a Math teacher at Stone Mountain Middle school, and I could not be any happier to work with the best and the brightest students that Dekalb County has to offer.</p>
+        <p>This is my 2nd year as a Math teacher at Stone Mountain Middle school, and I could not be any happier to work with the best and the brightest students that Dekalb County has to offer.</p>
       </div>
 
       <h2 class="text-2xl mb-4">Teaching Philosophy</h2>
