@@ -48,7 +48,7 @@
           <li type="circle">Designate a work space with an appropriate background.</li>
           <li type="circle">Click on raise hand to speak or type a question in the chat.</li>
           <li type="circle">Stay on mute unless I state otherwise.</li>
-          <li type="circle">BE APPROPRIATE if you can't do it in the school building don't do it
+          <li type="circle">BE APPROPRIATE if you can't do it in the school building don't do it</li>
 
 
       <p>Parents, please encourage your child to complete their homework daily.</p>

@@ -49,7 +49,7 @@
     <ul class="mb-8">
       <li>
         <b>Username</b>
-        <em>firstinitiallastname (lowercase no spaces)</em>Ex: John Smith (jsmith)
+        <em>firstinitiallastname (lowercase no spaces)</em> Ex: John Smith (jsmith)
       </li>
 
       <li>
@@ -59,7 +59,6 @@
     </ul>
 
     <h2 class="text-2xl mb-8 text-pink-500 font-bold">Math Enrichments</h2>
-
     <ul>
       <li class="mb-4">
         <h3 class="font-bold">Khan Academy</h3>

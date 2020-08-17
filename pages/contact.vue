@@ -17,7 +17,7 @@
           href="sms:+81010"
           class="block text-blue-500 mb-8 cursor-pointer"
         >
-          @math6a2019
+          @math6a2020
         </a>
       </section>
 
